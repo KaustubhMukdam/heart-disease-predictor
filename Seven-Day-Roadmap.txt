@@ -1,0 +1,14 @@
+Daily Breakdown (7-Day Plan)
+Day 1 — EDA: Load data, explore distributions, check missing values, plot correlation heatmap, analyze feature-target relationships
+
+Day 2 — Data Cleaning & Feature Engineering: Handle outliers, encode categoricals (cp, restecg), create new features (e.g., age groups, cholesterol bins)
+
+Day 3 — Baseline Models: Train Logistic Regression and KNN; evaluate with accuracy, precision, recall, F1, and ROC-AUC
+
+Day 4 — Advanced Models: Train Random Forest, XGBoost, SVM; compare all models in a table
+
+Day 5 — Model Improvement: Hyperparameter tuning with GridSearchCV, handle class imbalance with SMOTE if needed
+
+Day 6 — Visualization & Interpretation: Plot feature importances, confusion matrix, ROC curves; add SHAP values for explainability (stretch)
+
+Day 7 — GitHub, README, and Kaggle Notebook cleanup: Publish polished notebook and push to GitHub
