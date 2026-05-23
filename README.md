@@ -28,13 +28,36 @@ The project was developed in the following stages:
 6. **Day 6 - Interpretation**: added ROC curves, confusion matrices, threshold tuning, and SHAP explainability.
 7. **Day 7 - Packaging**: prepared the final notebook, README, and submission artifact for publishing.
 
-## Key Results
+## Results
+
+### Baseline Models
+
+| Model | ROC-AUC | Accuracy | Recall | F1 |
+|---|---:|---:|---:|---:|
+| Logistic Regression | 0.8926 | 0.7891 | 0.8148 | 0.8098 |
+| KNN | 0.8753 | 0.8367 | 0.9012 | 0.8588 |
+
+### Advanced Models
+
+| Model | ROC-AUC | Accuracy | Recall | F1 |
+|---|---:|---:|---:|---:|
+| Random Forest | 0.8954 | 0.8367 | 0.9012 | 0.8588 |
+| XGBoost | 0.9020 | 0.8367 | 0.8765 | 0.8554 |
+| SVM | 0.8749 | 0.8027 | 0.8519 | 0.8263 |
+
+### Tuned Models
 
 | Model | ROC-AUC | Accuracy | Recall | F1 |
 |---|---:|---:|---:|---:|
 | XGBoost Tuned | 0.9024 | 0.8571 | 0.8889 | 0.8727 |
 | Random Forest Tuned | 0.8928 | 0.8231 | 0.8765 | 0.8452 |
 | SVM Tuned | 0.8732 | 0.8027 | 0.8395 | 0.8242 |
+
+### Threshold-Tuned Model
+
+| Model | Threshold | ROC-AUC | Accuracy | Precision | Recall | F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| XGBoost Threshold-Tuned | 0.215 | 0.9024 | 0.8027 | 0.7549 | 0.9506 | 0.8415 |
 
 Threshold tuning on the tuned XGBoost model improved recall to 0.9506 at a threshold of 0.215, which is a better operating point for medical screening.
 
